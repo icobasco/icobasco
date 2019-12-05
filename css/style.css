@@ -7,3 +7,13 @@ h2 {
 p {
   background-color: #99ccff;
 }
+
+.titolo {
+  padding: 20px;
+  border: 1px solid black;
+}
+
+.descrizione {
+  padding: 20px;
+  border: 1px solid black;
+}
