@@ -1,19 +1,33 @@
-
-h2 {
+.pagetitle {
+  /* dovrebbe ereditare da titolo ed essere solo centrato*/
+  padding: 10px;
+  border: 1px solid black;
+  margin: 10px;
+  text-align: center;
   background-color: #3399ff;
   color: white;
+  border-radius: 15px;
 }
 
-p {
-  background-color: #99ccff;
+.argomento {
+  padding: 10px;
+  border: 1px solid black;
+  margin: 10px;
+  background-color: #0066ff;
+  border-radius: 15px;
 }
 
 .titolo {
   padding: 20px;
   border: 1px solid black;
+  border-radius: inherit;
+  background-color: #3399ff;
+  color: white;
 }
 
 .descrizione {
   padding: 20px;
   border: 1px solid black;
+  border-radius: inherit;
+  background-color: #99ccff;
 }
